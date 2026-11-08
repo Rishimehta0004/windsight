@@ -1,0 +1,10 @@
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: windsight-backend
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
