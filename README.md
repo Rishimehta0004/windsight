@@ -4,6 +4,15 @@
 
 WindSight analyses January 2026 UK national wind generation data and compares day-ahead forecasts with actual generation. It provides forecast accuracy metrics, daily performance analysis, forecast publication history, and insights into forecast bias.
 
+## Live Demo
+
+- **Live Application:** https://frontend-gamma-liart-44.vercel.app/
+- **Backend API:** https://windsight-api-77rh.onrender.com
+- **Interactive API Documentation:** https://windsight-api-77rh.onrender.com/docs
+- **GitHub Repository:** https://github.com/Rishimehta0004/windsight
+
+The frontend is deployed on Vercel, while the FastAPI backend is containerised with Docker and deployed on Render.
+
 ## Project Overview
 
 Wind generation is variable, making forecast accuracy important for electricity system planning and operational decisions.
