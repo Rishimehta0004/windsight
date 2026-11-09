@@ -248,7 +248,7 @@ function Overview({ overview, comparison, daily, loading, onNavigate }) {
               <XAxis dataKey="dateLabel" tick={{ fill: '#8292a8', fontSize: 10 }} />
               <YAxis tick={{ fill: '#8292a8', fontSize: 11 }} />
               <Tooltip contentStyle={{ background: '#111d2d', border: '1px solid #2a3b51', borderRadius: 10 }} />
-              <Bar dataKey="mae_mw" name="Daily MAE" fill="#4ca9ff" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="mae" name="Daily MAE" fill="#4ca9ff" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         ) : <EmptyState message="Daily performance data is not available." />}
